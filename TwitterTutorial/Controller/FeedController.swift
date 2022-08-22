@@ -14,7 +14,6 @@ class FeedController: UIViewController{
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         configureUI()
     
         // Do any additional setup after loading the view.
