@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60B1B4828B4E114002CA396 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60B1B4728B4E114002CA396 /* Utilities.swift */; };
 		A60BB31928B31C3F00A3AADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60BB31828B31C3F00A3AADF /* AppDelegate.swift */; };
 		A60BB31B28B31C3F00A3AADF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60BB31A28B31C3F00A3AADF /* SceneDelegate.swift */; };
 		A60BB32028B31C3F00A3AADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60BB31E28B31C3F00A3AADF /* Main.storyboard */; };
@@ -18,9 +19,12 @@
 		A60BB33B28B32CCD00A3AADF /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60BB33A28B32CCD00A3AADF /* NotificationsController.swift */; };
 		A60BB33D28B32CD500A3AADF /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60BB33C28B32CD500A3AADF /* ConversationsController.swift */; };
 		A60BB34128B3490500A3AADF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60BB34028B3490500A3AADF /* Extensions.swift */; };
+		A61162CF28B4CB2C00501A1D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61162CE28B4CB2C00501A1D /* LoginController.swift */; };
+		A61162D128B4CBB300501A1D /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61162D028B4CBB300501A1D /* RegistrationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A60B1B4728B4E114002CA396 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		A60BB31528B31C3F00A3AADF /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60BB31828B31C3F00A3AADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A60BB31A28B31C3F00A3AADF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +38,8 @@
 		A60BB33A28B32CCD00A3AADF /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
 		A60BB33C28B32CD500A3AADF /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
 		A60BB34028B3490500A3AADF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../Downloads/Extensions.swift; sourceTree = "<group>"; };
+		A61162CE28B4CB2C00501A1D /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		A61162D028B4CBB300501A1D /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				A60BB34028B3490500A3AADF /* Extensions.swift */,
+				A60B1B4728B4E114002CA396 /* Utilities.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -100,6 +107,7 @@
 		A60BB32E28B31DBD00A3AADF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A61162CD28B4CB1800501A1D /* Authentication */,
 				A60BB33428B31EFF00A3AADF /* MainTabController.swift */,
 				A60BB33628B32C6A00A3AADF /* FeedController.swift */,
 				A60BB33828B32CC100A3AADF /* ExploreController.swift */,
@@ -128,6 +136,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A61162CD28B4CB1800501A1D /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				A61162CE28B4CB2C00501A1D /* LoginController.swift */,
+				A61162D028B4CBB300501A1D /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,9 +222,12 @@
 				A60BB34128B3490500A3AADF /* Extensions.swift in Sources */,
 				A60BB33D28B32CD500A3AADF /* ConversationsController.swift in Sources */,
 				A60BB31928B31C3F00A3AADF /* AppDelegate.swift in Sources */,
+				A60B1B4828B4E114002CA396 /* Utilities.swift in Sources */,
 				A60BB33928B32CC100A3AADF /* ExploreController.swift in Sources */,
 				A60BB31B28B31C3F00A3AADF /* SceneDelegate.swift in Sources */,
 				A60BB33528B31EFF00A3AADF /* MainTabController.swift in Sources */,
+				A61162CF28B4CB2C00501A1D /* LoginController.swift in Sources */,
+				A61162D128B4CBB300501A1D /* RegistrationController.swift in Sources */,
 				A60BB33728B32C6A00A3AADF /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,7 +377,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K6RJQ9NA7X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TwitterTutorial/Info.plist;
+				INFOPLIST_FILE = TwitterClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -368,7 +388,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cantsleep.TwitterTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cantsleep.TwitterClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -385,7 +405,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K6RJQ9NA7X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TwitterTutorial/Info.plist;
+				INFOPLIST_FILE = TwitterClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -396,7 +416,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cantsleep.TwitterTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cantsleep.TwitterClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
